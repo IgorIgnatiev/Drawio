@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T16:16:02.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="O2U_iNuFmAc81vHfSSwq" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T17:02:12.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="27E9RNskInh9anxVKqfk" version="15.2.7" type="github">
   <diagram id="bfGoecY4smeRe_Sxe7sl" name="Page-1">
-    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="qUA_8t1JtvUbXIkozWur-70" value="+ set_is_broken(bool): void" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-5">
           <mxGeometry y="130" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qUA_8t1JtvUbXIkozWur-8" value="+ get_temp(C_Room&amp;): unsigned short" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-5">
+        <mxCell id="qUA_8t1JtvUbXIkozWur-8" value="+ get_temp(C_Room&amp;): short" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-5">
           <mxGeometry y="156" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qUA_8t1JtvUbXIkozWur-63" value="+ break(): void virtual" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-5">
@@ -58,7 +58,7 @@
         <mxCell id="qUA_8t1JtvUbXIkozWur-14" value="- _conditioner: C_Conditioner*" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
           <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qUA_8t1JtvUbXIkozWur-37" value="- _temperature: unsigned short*" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
+        <mxCell id="qUA_8t1JtvUbXIkozWur-37" value="- _temperature: short*" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
           <mxGeometry y="52" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qUA_8t1JtvUbXIkozWur-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
@@ -70,7 +70,7 @@
         <mxCell id="qUA_8t1JtvUbXIkozWur-38" value="+ ~C_Room()" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
           <mxGeometry y="112" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qUA_8t1JtvUbXIkozWur-39" value="+ get_temp(): unsigned short*" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
+        <mxCell id="qUA_8t1JtvUbXIkozWur-39" value="+ get_temp(): short*" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
           <mxGeometry y="138" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qUA_8t1JtvUbXIkozWur-40" value="+ set_temp(unsigned short): void" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-13">
@@ -157,7 +157,7 @@
         <mxCell id="qUA_8t1JtvUbXIkozWur-45" value="+ set_is_on(bool): void" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-25">
           <mxGeometry y="242" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qUA_8t1JtvUbXIkozWur-32" value="+ work(C_Room&amp;, unsigned short): void" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-25">
+        <mxCell id="qUA_8t1JtvUbXIkozWur-32" value="+ work(C_Room&amp;, short): void" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-25">
           <mxGeometry y="268" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qUA_8t1JtvUbXIkozWur-42" value="+ turn_on(): void" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qUA_8t1JtvUbXIkozWur-25">
