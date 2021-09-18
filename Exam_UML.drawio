@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T10:37:16.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="VOUuGKm1d__C8i7JwSv6" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T10:59:28.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="As6exYvVxrV4KyoHMlh7" version="15.2.7" type="github">
   <diagram id="SSqRe7yeWzL_ahuAxIvq" name="Page-1">
-    <mxGraphModel dx="3434" dy="2622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1944" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,9 +64,6 @@
         <mxCell id="Ex-YfUZOX76iZiXNYdEz-39" value="Охлаждать" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1430" y="275" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="REcgTKblcPlk6Ld11pTf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-40" target="REcgTKblcPlk6Ld11pTf-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Ex-YfUZOX76iZiXNYdEz-40" value="Температура в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1770" y="210" width="120" height="80" as="geometry" />
         </mxCell>
@@ -123,29 +120,92 @@
         <mxCell id="REcgTKblcPlk6Ld11pTf-4" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="180" y="-62.5" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="REcgTKblcPlk6Ld11pTf-6" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1970" y="210" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="REcgTKblcPlk6Ld11pTf-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-10" target="Ex-YfUZOX76iZiXNYdEz-32">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1440" y="-150" as="sourcePoint" />
             <mxPoint x="1420" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="REcgTKblcPlk6Ld11pTf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-10" target="REcgTKblcPlk6Ld11pTf-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="REcgTKblcPlk6Ld11pTf-10" value="Температура в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1600" y="120" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="REcgTKblcPlk6Ld11pTf-11" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="REcgTKblcPlk6Ld11pTf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-13" target="Ex-YfUZOX76iZiXNYdEz-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="REcgTKblcPlk6Ld11pTf-13" value="Температура не в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-15" target="REcgTKblcPlk6Ld11pTf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-15" value="Что-то сломалось" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2008" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-16" target="REcgTKblcPlk6Ld11pTf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-16" value="Все исправно" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="265" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-17" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="265" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-16" target="Ex-YfUZOX76iZiXNYdEz-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1780" y="260.0000000000002" as="sourcePoint" />
+            <mxPoint x="1560" y="325.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-15" target="Ex-YfUZOX76iZiXNYdEz-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2020.0000000000273" y="315.0000000000002" as="sourcePoint" />
+            <mxPoint x="1900" y="260.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-21" target="REcgTKblcPlk6Ld11pTf-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-21" value="Вывести сообщение о надобности починки" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-24" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-32" target="REcgTKblcPlk6Ld11pTf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-32" value="Что-то сломалось" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1928" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-34" target="REcgTKblcPlk6Ld11pTf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-34" value="Все исправно" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="15" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-35" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="15" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-34" target="REcgTKblcPlk6Ld11pTf-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1700" y="10.000000000000227" as="sourcePoint" />
+            <mxPoint x="1810" y="2.2737367544323206e-13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1940.0000000000273" y="65.00000000000023" as="sourcePoint" />
+            <mxPoint x="1720" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-39" target="REcgTKblcPlk6Ld11pTf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-39" value="Вывести сообщение о надобности починки" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="-80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-40" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="-80" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
