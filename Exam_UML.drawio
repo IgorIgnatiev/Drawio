@@ -1,181 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T16:36:12.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="MeBCRDz7dkZD4yJOFC1H" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T10:36:44.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="i-Kg4nOrKmMN4Pjy85qo" version="15.2.7" type="github">
   <diagram id="SSqRe7yeWzL_ahuAxIvq" name="Page-1">
-    <mxGraphModel dx="2858" dy="2303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-1" target="Ex-YfUZOX76iZiXNYdEz-3">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-1" target="Ex-YfUZOX76iZiXNYdEz-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-1" value="Комфортный СКВ со сплит-системой" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-1" value="Комфортный СКВ со сплит-системой" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-222.5" y="290" width="35" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-3" value="Поддерживать заданную температуру" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-3" value="Достигнуть заданной температуры" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-320" y="90" width="230" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-5" value="Считать показатели" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="510" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-5" value="Считать показатели" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="285" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-7" value="Температура не соответствует норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="740" y="-7.5" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-7" value="Температура не соответствует нужной" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="780" y="275" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-7" target="Ex-YfUZOX76iZiXNYdEz-5">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-7" target="Ex-YfUZOX76iZiXNYdEz-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="670" y="267.5" as="sourcePoint" />
             <mxPoint x="830" y="267.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-28">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-28" edge="1" target="Ex-YfUZOX76iZiXNYdEz-7">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1100" y="-60" as="sourcePoint" />
             <mxPoint x="860" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-28" value="Температура выше нужной" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-100" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-28" value="Температура выше нужной" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-30" target="Ex-YfUZOX76iZiXNYdEz-7">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-30" target="Ex-YfUZOX76iZiXNYdEz-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1110" y="70" as="sourcePoint" />
             <mxPoint x="870" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-30" target="Ex-YfUZOX76iZiXNYdEz-39">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-30" target="Ex-YfUZOX76iZiXNYdEz-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-30" value="Температура ниже нужной" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="30" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-30" value="Температура ниже нужной" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="275" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-28" target="Ex-YfUZOX76iZiXNYdEz-32">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-28" target="Ex-YfUZOX76iZiXNYdEz-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="860" y="220" as="sourcePoint" />
             <mxPoint x="1280" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-32" value="Греть" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="-100" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-32" value="Греть" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-33" target="Ex-YfUZOX76iZiXNYdEz-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="30" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1490" y="-170" />
-              <mxPoint x="613" y="-170" />
-            </Array>
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="REcgTKblcPlk6Ld11pTf-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1630" y="20" as="sourcePoint" />
+            <mxPoint x="1470" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-33" value="Температура в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="-200" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-39" value="Охлаждать" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="275" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-34" target="Ex-YfUZOX76iZiXNYdEz-32">
+        <mxCell id="REcgTKblcPlk6Ld11pTf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-40" target="REcgTKblcPlk6Ld11pTf-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-34" value="Температура не в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="-30" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-40" value="Температура в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-33" target="Ex-YfUZOX76iZiXNYdEz-32">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1050" y="-50" as="sourcePoint" />
-            <mxPoint x="870" y="40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-34">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1440" y="-150" as="sourcePoint" />
-            <mxPoint x="1390" y="-60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-39" value="Охлаждать" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="30" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-40" value="Температура в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="-62.5" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-42" target="Ex-YfUZOX76iZiXNYdEz-39">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-42" target="Ex-YfUZOX76iZiXNYdEz-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-42" value="Температура не в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="107.5" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-42" value="Температура не в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="390" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-40" target="Ex-YfUZOX76iZiXNYdEz-39">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-40" target="Ex-YfUZOX76iZiXNYdEz-39" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1340" y="87.5" as="sourcePoint" />
             <mxPoint x="1160" y="177.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-44" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-42">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-44" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-42" edge="1" target="Ex-YfUZOX76iZiXNYdEz-39">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1730" y="-12.5" as="sourcePoint" />
             <mxPoint x="1680" y="77.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-53" value="Температура в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="-62.5" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-54" value="Температура не в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="107.5" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-83" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ex-YfUZOX76iZiXNYdEz-5">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-83" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="Ex-YfUZOX76iZiXNYdEz-5" edge="1" source="Ex-YfUZOX76iZiXNYdEz-84">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="500" y="-30" as="sourcePoint" />
             <mxPoint x="850" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-84" target="Ex-YfUZOX76iZiXNYdEz-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="90" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="500" y="179" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-84" target="REcgTKblcPlk6Ld11pTf-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-84" value="Показатели в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-110" width="120" height="80" as="geometry" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-84" value="Показатели в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="380" y="-62.5" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-85" value="Получить команду о включении" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="REcgTKblcPlk6Ld11pTf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-85" target="REcgTKblcPlk6Ld11pTf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-85" value="Получить команду о включении" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-60" y="275" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-86" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-85" target="Ex-YfUZOX76iZiXNYdEz-1">
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-86" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ex-YfUZOX76iZiXNYdEz-85" target="Ex-YfUZOX76iZiXNYdEz-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="395" as="sourcePoint" />
             <mxPoint x="130" y="345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-87" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-88" target="Ex-YfUZOX76iZiXNYdEz-85">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="120" y="245" as="sourcePoint" />
-            <mxPoint x="180" y="495" as="targetPoint" />
+        <mxCell id="Ex-YfUZOX76iZiXNYdEz-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="REcgTKblcPlk6Ld11pTf-2" target="Ex-YfUZOX76iZiXNYdEz-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-88" target="Ex-YfUZOX76iZiXNYdEz-93">
+        <mxCell id="REcgTKblcPlk6Ld11pTf-2" value="Получить нужную температуру" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="275" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-4" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-62.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-6" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-10" target="Ex-YfUZOX76iZiXNYdEz-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1440" y="-150" as="sourcePoint" />
+            <mxPoint x="1420" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REcgTKblcPlk6Ld11pTf-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-10" target="REcgTKblcPlk6Ld11pTf-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-88" value="Свет есть" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="165" width="120" height="80" as="geometry" />
+        <mxCell id="REcgTKblcPlk6Ld11pTf-10" value="Температура в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-89" value="Света нет" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="110" y="355" width="120" height="80" as="geometry" />
+        <mxCell id="REcgTKblcPlk6Ld11pTf-11" value="Закончить работу" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-90" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-89" target="Ex-YfUZOX76iZiXNYdEz-85">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="20" y="495" as="sourcePoint" />
-            <mxPoint x="180" y="495" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-91" value="Работа невозмлжна" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="380" y="450" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-92" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-91" target="Ex-YfUZOX76iZiXNYdEz-89">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="640" y="530" as="sourcePoint" />
-            <mxPoint x="800" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ex-YfUZOX76iZiXNYdEz-93" target="Ex-YfUZOX76iZiXNYdEz-5">
+        <mxCell id="REcgTKblcPlk6Ld11pTf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="REcgTKblcPlk6Ld11pTf-13" target="Ex-YfUZOX76iZiXNYdEz-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ex-YfUZOX76iZiXNYdEz-93" value="Получить нужную температуру" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="300" y="170" width="120" height="80" as="geometry" />
+        <mxCell id="REcgTKblcPlk6Ld11pTf-13" value="Температура не в норме" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1600" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
